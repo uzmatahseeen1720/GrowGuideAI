@@ -76,12 +76,17 @@ Note that, for now it only supports following crops
   ```
   ❯ git clone https://github.com/uzmatahseeen1720/GrowGuideAI.git
   ```
-- `deploy` branch has only the code required for deploying the app (rest of the code that was used for training the models, data preparation can be accessed on `master` branch)
-- It is highly recommended to clone the deploy branch for running the project locally (the further steps apply only if you have the deploy branch cloned)
-- Once the project is cloned, open anaconda prompt in the directory where the project was cloned and paste the following block
+
+- It is highly recommended to clone the deploy branch for running the project locally in your gitbash.
+- Once the project is cloned, activate miniconda or anaconda by running following command-
+        source whateverpath/etc/profile.d/conda.sh
+  then
+        conda activate
   ```
-  conda create -n CropcareAI python=3.6.12
-  conda activate CropcareAI
+  conda create -n GrowGuideAI python=3.6.12
+  conda activate GrowGuideAI
+  
+  After this switch GrowGuideAI directory,then run following command-
   pip install -r requirements.txt
   ```
 - And finally run the project with
