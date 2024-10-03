@@ -74,7 +74,7 @@ Note that, for now it only supports following crops
 ## How to run locally 🛠️
 - Before the following steps make sure you have [git](https://git-scm.com/download), [Anaconda](https://www.anaconda.com/) or [miniconda](https://docs.conda.io/en/latest/miniconda.html) installed on your system
   ```
-  ❯ git clone -b deploy https://github.com/AnMol12499/CropcareAI.git
+  ❯ git clone https://github.com/uzmatahseeen1720/GrowGuideAI.git
   ```
 - `deploy` branch has only the code required for deploying the app (rest of the code that was used for training the models, data preparation can be accessed on `master` branch)
 - It is highly recommended to clone the deploy branch for running the project locally (the further steps apply only if you have the deploy branch cloned)
